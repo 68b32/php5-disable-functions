@@ -1,0 +1,3 @@
+This is a list of potentially dangerous PHP functions. The initial list was taken from http://php.xmb.cz/disable-functions/ and extended with PHP's Opcode functions.
+
+Some popular PHP applications might not work with this configuration. A famous example is PHPMyAdmin since it uses chdir() which is included in the list.
